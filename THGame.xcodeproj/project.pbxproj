@@ -16,6 +16,7 @@
 		3B902F831A85A7D8004A6D87 /* THGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902F821A85A7D8004A6D87 /* THGameTests.swift */; };
 		3B902F8E1A85BA92004A6D87 /* Fairune_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F8C1A85BA92004A6D87 /* Fairune_map.png */; };
 		3B902F8F1A85BA92004A6D87 /* Fairune_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F8D1A85BA92004A6D87 /* Fairune_sprite.png */; };
+		3B902F911A867FE4004A6D87 /* FairuneWalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902F901A867FE4004A6D87 /* FairuneWalk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		3B902F821A85A7D8004A6D87 /* THGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THGameTests.swift; sourceTree = "<group>"; };
 		3B902F8C1A85BA92004A6D87 /* Fairune_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fairune_map.png; sourceTree = "<group>"; };
 		3B902F8D1A85BA92004A6D87 /* Fairune_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fairune_sprite.png; sourceTree = "<group>"; };
+		3B902F901A867FE4004A6D87 /* FairuneWalk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FairuneWalk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				3B902F731A85A7D8004A6D87 /* Images.xcassets */,
 				3B902F751A85A7D8004A6D87 /* LaunchScreen.xib */,
 				3B902F661A85A7D8004A6D87 /* Supporting Files */,
+				3B902F901A867FE4004A6D87 /* FairuneWalk.swift */,
 			);
 			path = THGame;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B902F6D1A85A7D8004A6D87 /* GameScene.swift in Sources */,
+				3B902F911A867FE4004A6D87 /* FairuneWalk.swift in Sources */,
 				3B902F6F1A85A7D8004A6D87 /* GameViewController.swift in Sources */,
 				3B902F691A85A7D8004A6D87 /* AppDelegate.swift in Sources */,
 			);
