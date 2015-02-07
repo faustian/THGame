@@ -9,6 +9,7 @@
 import UIKit
 import SpriteKit
 
+/* spritekit default game code
 extension SKNode {
     class func unarchiveFromFile(file : NSString) -> SKNode? {
         if let path = NSBundle.mainBundle().pathForResource(file, ofType: "sks") {
@@ -24,12 +25,14 @@ extension SKNode {
         }
     }
 }
+*/
 
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        /* spritekit default game code
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.
             let skView = self.view as SKView
@@ -44,8 +47,10 @@ class GameViewController: UIViewController {
             
             skView.presentScene(scene)
         }
+        */
     }
 
+    /* spritekit default game code
     override func shouldAutorotate() -> Bool {
         return true
     }
@@ -62,6 +67,7 @@ class GameViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
+    */
 
     override func prefersStatusBarHidden() -> Bool {
         return true

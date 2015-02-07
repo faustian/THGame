@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3B902F691A85A7D8004A6D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902F681A85A7D8004A6D87 /* AppDelegate.swift */; };
-		3B902F6B1A85A7D8004A6D87 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F6A1A85A7D8004A6D87 /* GameScene.sks */; };
 		3B902F6D1A85A7D8004A6D87 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902F6C1A85A7D8004A6D87 /* GameScene.swift */; };
 		3B902F6F1A85A7D8004A6D87 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902F6E1A85A7D8004A6D87 /* GameViewController.swift */; };
 		3B902F721A85A7D8004A6D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F701A85A7D8004A6D87 /* Main.storyboard */; };
 		3B902F741A85A7D8004A6D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F731A85A7D8004A6D87 /* Images.xcassets */; };
 		3B902F771A85A7D8004A6D87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F751A85A7D8004A6D87 /* LaunchScreen.xib */; };
 		3B902F831A85A7D8004A6D87 /* THGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B902F821A85A7D8004A6D87 /* THGameTests.swift */; };
+		3B902F8E1A85BA92004A6D87 /* Fairune_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F8C1A85BA92004A6D87 /* Fairune_map.png */; };
+		3B902F8F1A85BA92004A6D87 /* Fairune_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B902F8D1A85BA92004A6D87 /* Fairune_sprite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,6 @@
 		3B902F631A85A7D8004A6D87 /* THGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B902F671A85A7D8004A6D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B902F681A85A7D8004A6D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B902F6A1A85A7D8004A6D87 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		3B902F6C1A85A7D8004A6D87 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3B902F6E1A85A7D8004A6D87 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3B902F711A85A7D8004A6D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +40,8 @@
 		3B902F7C1A85A7D8004A6D87 /* THGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B902F811A85A7D8004A6D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B902F821A85A7D8004A6D87 /* THGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THGameTests.swift; sourceTree = "<group>"; };
+		3B902F8C1A85BA92004A6D87 /* Fairune_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fairune_map.png; sourceTree = "<group>"; };
+		3B902F8D1A85BA92004A6D87 /* Fairune_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fairune_sprite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				3B902F681A85A7D8004A6D87 /* AppDelegate.swift */,
-				3B902F6A1A85A7D8004A6D87 /* GameScene.sks */,
 				3B902F6C1A85A7D8004A6D87 /* GameScene.swift */,
 				3B902F6E1A85A7D8004A6D87 /* GameViewController.swift */,
+				3B902F8C1A85BA92004A6D87 /* Fairune_map.png */,
+				3B902F8D1A85BA92004A6D87 /* Fairune_sprite.png */,
 				3B902F701A85A7D8004A6D87 /* Main.storyboard */,
 				3B902F731A85A7D8004A6D87 /* Images.xcassets */,
 				3B902F751A85A7D8004A6D87 /* LaunchScreen.xib */,
@@ -199,8 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B902F771A85A7D8004A6D87 /* LaunchScreen.xib in Resources */,
+				3B902F8F1A85BA92004A6D87 /* Fairune_sprite.png in Resources */,
+				3B902F8E1A85BA92004A6D87 /* Fairune_map.png in Resources */,
 				3B902F741A85A7D8004A6D87 /* Images.xcassets in Resources */,
-				3B902F6B1A85A7D8004A6D87 /* GameScene.sks in Resources */,
 				3B902F721A85A7D8004A6D87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
