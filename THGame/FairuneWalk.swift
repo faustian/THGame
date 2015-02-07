@@ -20,12 +20,12 @@ class FairuneWalk : SKSpriteNode {
         let faceUp2 = SKTexture(rect:CGRectMake((3.0/9.0),0.0,(4.0/9.0),1.0), inTexture:walkSpriteTexture)
         let faceLeft1 = SKTexture(rect:CGRectMake((4.0/9.0),0.0,(5.0/9.0),1.0), inTexture:walkSpriteTexture)
         let faceLeft2 = SKTexture(rect:CGRectMake((5.0/9.0),0.0,(6.0/9.0),1.0), inTexture:walkSpriteTexture)
-        let faceRight1 = SKTexture(image:UIImage.imageWithCIImage(CIImage.imageByApplyingTransform(nil)))
-        faceLeft1.xScale(-1.0)
+        //let faceRight1 = SKTexture(image:UIImage.imageWithCIImage(CIImage.imageByApplyingTransform(nil)))
+        //faceLeft1.xScale(-1.0)
         super.init(texture:faceDown1, color:nil, size:faceDown1.size())
         
         let stepDown = SKAction.animateWithTextures([faceDown1, faceDown2], timePerFrame:0.06)
-        let step
+        //let step
     }
     
     //subclasses of SKSpriteNode need this
